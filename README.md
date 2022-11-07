@@ -13,17 +13,25 @@ I have made this file structure :
 
 
 └── public
+
 index.html
 
 └── src
+
 app.js
+
 style.css
 
 └── pages
+
 home.js
+
 categorieMenu.js
+
 navabr.js
+
 service.js
+
 about.js
 
 the pages of the web app are as folows:
