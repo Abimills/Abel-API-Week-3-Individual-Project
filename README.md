@@ -32,8 +32,11 @@ the pages of the web app are as folows:
 
 . CategorieMenu.js : is another way of ordering/ you can choose diffrent types of food categories and 
 order there. everytime you order you will have a pop up message indicating what you just ordered.
+
 . Navbar.js - is incharge of the navbar which is always fixed at the top and helps you navigate between pages..
+
 .Cantact.js - is a contact page for complaint and support but it doesnt really send a complaint..justed added it to make the website look cool.
+
 about.js - is resposible for about us section of the web page...
 
 for visual view please check this 
