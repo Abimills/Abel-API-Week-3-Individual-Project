@@ -40,4 +40,4 @@ order there. everytime you order you will have a pop up message indicating what 
 about.js - is resposible for about us section of the web page...
 
 for visual view please check this 
-Demo : https://abimills.github.io/api/
+Demo : https://abimills.github.io/api/public/
