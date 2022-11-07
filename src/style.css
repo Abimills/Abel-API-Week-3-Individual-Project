@@ -116,7 +116,7 @@ background-size: cover;
     border-radius: 50%;
     opacity: 0.3; 
 }
-/* */
+
 .home-container{
     position: relative;
         width: 100vw;
@@ -187,14 +187,14 @@ background-size: cover;
     font-weight: 100;
     margin-left: 38%;
     margin-top: 15%;
-   
+   margin-bottom: 1rem;
 }
 .p-text{
     font-weight: 500;
 max-width: 300px;
     text-align: center;
     margin-left: -390px;
-    margin-top: 155%;
+    margin-top: 160%;
    font-size: 0.9rem;
   
    
@@ -273,7 +273,7 @@ background-color: rgb(216, 129, 24);
     background-color: rgba(255, 255, 255, 1);
 
 }
-.text-container h1 :hover{
+.text-container h1:hover{
     background-color: black;
     color:white;
 }
@@ -373,75 +373,50 @@ font-size: 1rem;
   margin-top: -4%;
 }
 
-
-
-
 }
+
 
 @media screen and (max-width:1000px) {
 
 .nav {
-        justify-content: left;
-        gap: 7%;
+ justify-content: left;
+ gap: 7%;
+ }
 
-
-    }
-          .category-containers {
-              grid-template-columns: repeat(3, 1fr);
-              padding: 15px;
-             
-          }
+.category-containers {
+grid-template-columns: repeat(3, 1fr);
+  padding: 15px;
+}
   
   
 .home-container {
-
-    overflow-x: hidden;
-
-
+overflow-x: hidden;
 }
 
  .appetite-text {
-     margin-left: 12%;
-
+ margin-left: 12%;
  }
   .p-text {
-
-      position: relative;
-      left: -16rem;
+position: relative;
+left: -16rem;
   }
   .food-container {
       grid-template-columns: repeat(3, 1fr);
-     
-
-
   }
   .category-container{
     grid-template-columns: repeat(3,1fr);
   }
-
-
-
-
- 
   .contact-container{
-
-  margin-top: -85%;
-   
-    
-  }
+margin-top: -85%;
+}
   .contact-container input{
-
-    width:400px;
-    height: 30px;
+width:400px;
+height: 30px;
   }
   .contact-container textarea{
-
-    width:400px;
-  
+width:400px;
   }
- 
- 
-  .about p {
+ .about p {
       font-size: 0.7rem;
   }
   .alone-container{
@@ -450,80 +425,56 @@ padding: 30px;
   .alone-container img{
 margin-top: -90%;
 height: 30%;;
-
-
-  }
-
-  .text-container{
-
-    margin-top: -70%;;
-
-
-  }
-
 }
-
-
-
-
-
-
-
-
-
+.text-container{
+ margin-top: -70%;;
+}
+}
 
 @media screen and (max-width:800px) {
     .nav{
      justify-content: left;
    gap:5%;
-    
-    
-    }
+
+}
    .category-container {
     grid-template-columns: repeat(3, 1fr);
-
-    
- }
+}
         
  .category-containers {
   grid-template-columns: repeat(2, 1fr);
   padding: 15px;
    }
-    
-    .appetite-text{
-        margin-left: 10%;
+.appetite-text{
+ margin-left: 10%;
+}
        
-    }
+.p-text {
+position: relative;
+ left: -18rem;
+}
+.contact-container {
+margin-top:-50%;
+}
        
-                  .p-text {
-        
-                      position: relative;
-                      left: -18rem;
-                  }
-      .contact-container {
-      margin-top:-50%;
-   
-
+.about p {
+font-size: 0.7rem;
  }
-        .about p {
-            font-size: 0.7rem;
-        }
 .alone-container{
     margin-top: 10%;
 }
-        .alone-container img{
-            height: 30%;
-            width: 35%;
-        }
+.alone-container img{
+height: 30%;
+ width: 35%;
+ }
 
 }
 @media screen and (max-width:600px) {
 .nav {
-        justify-content: left;
-        gap: 4.5%;
+justify-content: left;
+ gap: 4.5%;
 font-size: 0.6rem;
-
-    }
+ }
  .category-container {
   grid-template-columns: repeat(2, 1fr);
  }
@@ -532,7 +483,7 @@ font-size: 0.6rem;
 width:70%;
 height: 30px;
  left:0;
-    }
+}
 .p-text{
  left:-35rem;
  font-size: 0.6rem;
@@ -566,8 +517,7 @@ margin-top: -90%;
     width: 200px;
     margin-top: -10%;
  margin-bottom: 2rem;
-    
-    
+ 
 }
 .text-container button{
     padding: 10px;
@@ -598,54 +548,45 @@ margin-top:-2rem ;
   .about p{
     font-size: 0.5rem;
   }
- 
-  
+
   .appetite-text{
     margin-left: -1rem;
     margin-top: -0.3rem;
   }
    .contact-container {
        width: 100%;
-  
+ }
 
-   }
  .location {
      display: none;
  }
   .category-containers {
-      grid-template-columns: repeat(1, 1fr);
-      justify-content: center;
-      align-items: center;
+ grid-template-columns: repeat(1, 1fr);
+ justify-content: center;
+ align-items: center;
   }
 }
 
 @media screen and (max-width:300px) {
-    .nav {
-        justify-content: left;
-        gap: 4.5%;
-        font-size: 0.4rem;
+ .nav {
+justify-content: left;
+ gap: 4.5%;
+ font-size: 0.4rem;
+}
 
-    }
+ .category-container {
+  grid-template-columns: repeat(1, 1fr);
+ }
 
-    .category-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-        .contact-container {
-            width: 100%;
-            
-    
-    
-        }
-        .location{
-            display: none;
-        }
-   
-    .text-container{
-     
-       margin-top: 25%;
-     
-    }
+.contact-container {
+ width: 100%;
+  }
+ .location{
+display: none;
+}
+.text-container{
+ margin-top: 25%;
+}
     
   .text-container button{
     font-size: 0.5rem;
